@@ -1,0 +1,14 @@
+{
+  "name": "motion-showreel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A 15-second real-time WebGL2 motion graphics showreel, rendered frame-exact to MP4.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server -c-1 -p 8080 .",
+    "shots": "node tools/render.mjs",
+    "render": "node tools/render.mjs --all --video out/showreel.mp4 --workers 2",
+    "audio": "node tools/soundtrack.mjs"
+  },
+  "license": "MIT"
+}

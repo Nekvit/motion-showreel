@@ -1,0 +1,4599 @@
+{
+ "title": "NEKVIT showreel soundtrack",
+ "spec": "DIRECTION.md §3",
+ "generator": "tools/soundtrack.mjs",
+ "sampleRate": 48000,
+ "channels": 2,
+ "bitDepth": 16,
+ "samples": 720000,
+ "fps": 60,
+ "samplesPerFrame": 800,
+ "frames": 900,
+ "bpm": 150,
+ "key": "F minor",
+ "gates": [
+  {
+   "id": "G1",
+   "first": 297600,
+   "last": 307199,
+   "frames": [
+    372,
+    383
+   ],
+   "foley": {
+    "frame": 372,
+    "voice": "wood tock",
+    "maxSamples": 720,
+    "samples": 672
+   }
+  },
+  {
+   "id": "G2",
+   "first": 374400,
+   "last": 383999,
+   "frames": [
+    468,
+    479
+   ],
+   "foley": {
+    "frame": 468,
+    "voice": "relay-off click",
+    "maxSamples": 144,
+    "samples": 144
+   }
+  }
+ ],
+ "master": {
+  "integratedLufs": -14.03,
+  "truePeakDbtp": -1.25,
+  "normalisationGainDb": 2.79,
+  "staticGainDb": -0.14,
+  "limiterMaxGrDb": 3.66,
+  "glueAvgGrDb": 0.11,
+  "glueMaxGrDb": 2.19,
+  "frameGainDb": [
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.15,
+   -0.24,
+   -0.25,
+   -0.24,
+   -0.23,
+   -0.22,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.18,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -1.02,
+   -1.6,
+   -1.45,
+   -1.2,
+   -1.03,
+   -0.89,
+   -0.77,
+   -0.66,
+   -0.58,
+   -0.5,
+   -0.44,
+   -0.4,
+   -0.36,
+   -0.33,
+   -0.3,
+   -0.27,
+   -0.25,
+   -0.23,
+   -0.22,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.17,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.4,
+   12.73,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.19,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.35,
+   16.82,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   -2.95,
+   -3.6,
+   -3.49,
+   -3.01,
+   -2.77,
+   -2.47,
+   -2.04,
+   -1.74,
+   -1.58,
+   -1.33,
+   -1.16,
+   -1.04,
+   -0.92,
+   -0.82,
+   -0.77,
+   -0.68,
+   -0.6,
+   -0.55,
+   -0.5,
+   -0.45,
+   -0.41,
+   -0.39,
+   -0.35,
+   -0.33,
+   -0.71,
+   -1.39,
+   -1.4,
+   -1.24,
+   -1.06,
+   -0.94,
+   -0.81,
+   -0.71,
+   -0.64,
+   -0.58,
+   -0.51,
+   -0.46,
+   -0.42,
+   -0.44,
+   -0.43,
+   -0.41,
+   -0.38,
+   -0.35,
+   -0.33,
+   -0.3,
+   -0.28,
+   -0.27,
+   -0.26,
+   -0.24,
+   -0.89,
+   -1.12,
+   -1.03,
+   -0.89,
+   -0.78,
+   -0.68,
+   -0.57,
+   -0.53,
+   -0.47,
+   -0.42,
+   -0.38,
+   -0.35,
+   -0.33,
+   -0.36,
+   -0.36,
+   -0.33,
+   -0.31,
+   -0.29,
+   -0.27,
+   -0.26,
+   -0.24,
+   -0.23,
+   -0.22,
+   -0.27,
+   -2.53,
+   -2.65,
+   -2.38,
+   -2.01,
+   -1.72,
+   -1.48,
+   -1.28,
+   -1.1,
+   -0.95,
+   -0.83,
+   -0.73,
+   -0.63,
+   -0.6,
+   -0.67,
+   -0.62,
+   -0.57,
+   -0.62,
+   -0.6,
+   -0.57,
+   -0.54,
+   -0.52,
+   -0.64,
+   -1.01,
+   -1.02,
+   -2.76,
+   -3.06,
+   -2.75,
+   -2.41,
+   -2.04,
+   -1.76,
+   -1.53,
+   -1.32,
+   -1.13,
+   -0.99,
+   -0.87,
+   -0.77,
+   -0.68,
+   -0.61,
+   -0.54,
+   -0.49,
+   -0.44,
+   -0.4,
+   -0.37,
+   -0.34,
+   -0.31,
+   -0.29,
+   -0.27,
+   -0.32,
+   -3.43,
+   -3.81,
+   -3.44,
+   -2.93,
+   -2.53,
+   -2.1,
+   -1.79,
+   -1.55,
+   -1.34,
+   -1.16,
+   -1.01,
+   -0.88,
+   -0.78,
+   -0.69,
+   -0.61,
+   -0.54,
+   -0.49,
+   -0.44,
+   -0.4,
+   -0.37,
+   -0.34,
+   -0.31,
+   -0.29,
+   -0.27,
+   -0.26,
+   -0.32,
+   -0.31,
+   -0.29,
+   -0.27,
+   -0.25,
+   -0.24,
+   -0.23,
+   -0.22,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.19,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.2,
+   -0.22,
+   -0.21,
+   -0.2,
+   -0.2,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.17,
+   -0.35,
+   -0.37,
+   -0.35,
+   -0.33,
+   -0.3,
+   -0.29,
+   -0.27,
+   -0.25,
+   -0.24,
+   -0.23,
+   -0.22,
+   -0.21,
+   -0.21,
+   -3.6,
+   -5.29,
+   -5.02,
+   -4.52,
+   -4.08,
+   -3.33,
+   -2.86,
+   -2.5,
+   -2.15,
+   -1.87,
+   -1.61,
+   -1.41,
+   -1.24,
+   -1.08,
+   -0.96,
+   -0.85,
+   -0.75,
+   -0.67,
+   -0.6,
+   -0.55,
+   -0.49,
+   -0.45,
+   -0.41,
+   -0.38,
+   -0.35,
+   -0.32,
+   -0.3,
+   -0.28,
+   -0.26,
+   -0.25,
+   -0.23,
+   -0.22,
+   -0.21,
+   -0.2,
+   -0.19,
+   -0.19,
+   -0.18,
+   -0.18,
+   -0.17,
+   -0.17,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.16,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.15,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.14,
+   -0.12,
+   -0.15,
+   -0.16,
+   -0.18,
+   0.14,
+   0.06,
+   0.26,
+   0.19,
+   0.41,
+   0.11,
+   0.33,
+   -0.02,
+   0.41,
+   0.29,
+   0.1,
+   0.34,
+   0.06,
+   0.33,
+   1.03,
+   1.36,
+   1.53,
+   1.2,
+   1.27,
+   1.54,
+   3.11,
+   1.58,
+   2.57,
+   2.93,
+   3.1,
+   2.65,
+   3.95,
+   3.1,
+   3.62,
+   3.84,
+   3.58,
+   4.67,
+   6.22,
+   4.99,
+   4.75,
+   4.67,
+   5.34,
+   5.31,
+   3.12,
+   4.5,
+   2.54,
+   1.43,
+   2.62,
+   0.23,
+   0.04,
+   -1.74,
+   -3.7,
+   -6.18,
+   -7.72,
+   -10.58,
+   -12.56,
+   -19.95,
+   -27.33,
+   -41.56,
+   null
+  ]
+ },
+ "cues": [
+  {
+   "frame": 0,
+   "voice": "KICK",
+   "description": "Soft kick (LP 2 kHz)",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 0,
+   "voice": "SUB",
+   "description": "Dot born: sub pop 110->44 Hz (140 ms)",
+   "check": "onset",
+   "band": [
+    40,
+    130
+   ]
+  },
+  {
+   "frame": 0,
+   "voice": "TICK",
+   "description": "1 kHz blip (20 ms)",
+   "check": "onset",
+   "band": [
+    850,
+    1200
+   ]
+  },
+  {
+   "frame": 0,
+   "voice": "TICK",
+   "description": "Rim tick on every 8th, crosshair notches step 45 deg (0-84), -30 dB (tone Ab6)",
+   "check": "group",
+   "end": 84,
+   "band": [
+    1560,
+    1780
+   ],
+   "subs": [
+    0,
+    12,
+    24,
+    36,
+    48,
+    60,
+    72,
+    84
+   ]
+  },
+  {
+   "frame": 6,
+   "voice": "TICK",
+   "description": "HUD types on: one mono tick per character, -32 dB (tone G7)",
+   "check": "group",
+   "end": 19,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 24,
+   "voice": "FX",
+   "description": "Grid reveal: 2->8 kHz sine zip over 12f",
+   "check": "onset",
+   "band": [
+    1800,
+    3000
+   ]
+  },
+  {
+   "frame": 24,
+   "voice": "SUB",
+   "description": "Heartbeat pulse 1: 55 Hz thump",
+   "check": "onset",
+   "band": [
+    40,
+    120
+   ]
+  },
+  {
+   "frame": 30,
+   "voice": "SUB",
+   "description": "Heartbeat pulse 2: 55 Hz thump",
+   "check": "onset",
+   "band": [
+    40,
+    120
+   ]
+  },
+  {
+   "frame": 48,
+   "voice": "DOT",
+   "description": "Child departs (right): DOT pluck F5",
+   "check": "onset",
+   "band": [
+    629,
+    754
+   ],
+   "pan": 0.35
+  },
+  {
+   "frame": 50,
+   "voice": "DOT",
+   "description": "Child departs (left): DOT pluck Ab5",
+   "check": "onset",
+   "band": [
+    748,
+    897
+   ],
+   "pan": -0.35
+  },
+  {
+   "frame": 52,
+   "voice": "DOT",
+   "description": "Child departs (left): DOT pluck C6",
+   "check": "onset",
+   "band": [
+    942,
+    1130
+   ],
+   "pan": -0.35
+  },
+  {
+   "frame": 54,
+   "voice": "DOT",
+   "description": "Child departs (right): DOT pluck Eb6",
+   "check": "onset",
+   "band": [
+    1120,
+    1344
+   ],
+   "pan": 0.35
+  },
+  {
+   "frame": 54,
+   "voice": "GRAINS",
+   "description": "Ripple: 32 pops on F minor pentatonic (F5-C7), denser with the front, panned by x",
+   "check": "span",
+   "end": 78,
+   "band": [
+    650,
+    2300
+   ]
+  },
+  {
+   "frame": 72,
+   "voice": "HAT",
+   "description": "Dots breathe: closed hats 72, 78, 84, 90",
+   "check": "group",
+   "band": [
+    7000,
+    16000
+   ],
+   "subs": [
+    72,
+    78,
+    84,
+    90
+   ]
+  },
+  {
+   "frame": 84,
+   "voice": "FX",
+   "description": "Flood: reverse cymbal ending exactly at 96",
+   "check": "end",
+   "end": 96,
+   "band": [
+    4000,
+    12000
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "CLAP",
+   "description": "Shadow plate prints: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "FOLEY",
+   "description": "Plate thud 1 (shadow): LP noise + 90 Hz body, 60 ms",
+   "check": "onset",
+   "band": [
+    60,
+    400
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "HAT",
+   "description": "Halftime groove: hats on 8ths 96-180",
+   "check": "group",
+   "end": 191,
+   "band": [
+    7000,
+    16000
+   ],
+   "subs": [
+    96,
+    108,
+    120,
+    132,
+    144,
+    156,
+    168,
+    180
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "KICK",
+   "description": "Shadow plate prints: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "REESE",
+   "description": "Reese on F1 enters (bed through 191, sidechained)",
+   "check": "onset",
+   "band": [
+    150,
+    700
+   ]
+  },
+  {
+   "frame": 96,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 0 — POINT\" -> \"FIG. 1 — LINE\": one mono tick per character (14), -32 dB (tone G7)",
+   "check": "group",
+   "end": 109,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 102,
+   "voice": "FOLEY",
+   "description": "Plate thud 2 (face), brighter",
+   "check": "onset",
+   "band": [
+    800,
+    2000
+   ]
+  },
+  {
+   "frame": 108,
+   "voice": "FOLEY",
+   "description": "Plate thud 3 (ground), brightest",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 120,
+   "voice": "FM",
+   "description": "Dots stretch into lines: FM glide C4->F4 over 10f",
+   "check": "onset",
+   "band": [
+    230,
+    420
+   ]
+  },
+  {
+   "frame": 132,
+   "voice": "KICK",
+   "description": "Halftime groove kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 132,
+   "voice": "REESE",
+   "description": "Row wave pulse 1: reese LFO swell",
+   "check": "onset",
+   "band": [
+    900,
+    2600
+   ]
+  },
+  {
+   "frame": 138,
+   "voice": "REESE",
+   "description": "Row wave pulse 2: reese LFO swell",
+   "check": "onset",
+   "band": [
+    900,
+    2600
+   ]
+  },
+  {
+   "frame": 144,
+   "voice": "FX",
+   "description": "Collapse: saw falls F4->F2 into a thin F5 sine hum at -30 dB",
+   "check": "onset",
+   "end": 166,
+   "band": [
+    300,
+    1200
+   ]
+  },
+  {
+   "frame": 144,
+   "voice": "SNARE",
+   "description": "Halftime groove snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 168,
+   "voice": "FX",
+   "description": "Slit: \"shhk\" (BP noise at 3 kHz, 80 ms)",
+   "check": "onset",
+   "band": [
+    2200,
+    4200
+   ]
+  },
+  {
+   "frame": 168,
+   "voice": "KICK",
+   "description": "Slit: pickup kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 168,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 1 — LINE\" -> \"FIG. 2 — PLANE\": one mono tick per character (14), -32 dB (tone G7)",
+   "check": "group",
+   "end": 181,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 172,
+   "voice": "FX",
+   "description": "top arm opens: tape swish panned left",
+   "check": "onset",
+   "band": [
+    700,
+    2200
+   ],
+   "pan": -0.75
+  },
+  {
+   "frame": 174,
+   "voice": "FOLEY",
+   "description": "Stem wipes in: wood clack",
+   "check": "onset",
+   "band": [
+    1000,
+    3000
+   ],
+   "pan": -0.6
+  },
+  {
+   "frame": 176,
+   "voice": "FX",
+   "description": "middle arm opens: tape swish panned centre",
+   "check": "onset",
+   "band": [
+    700,
+    2200
+   ],
+   "pan": 0
+  },
+  {
+   "frame": 180,
+   "voice": "FX",
+   "description": "bottom arm opens: tape swish panned right",
+   "check": "onset",
+   "band": [
+    700,
+    2200
+   ],
+   "pan": 0.75
+  },
+  {
+   "frame": 192,
+   "voice": "CLAP",
+   "description": "Bar 3: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 192,
+   "voice": "FM",
+   "description": "FM bass on 16ths (192-359), LP 300 Hz -> 3 kHz over 192-288, sidechained",
+   "check": "span",
+   "end": 359,
+   "band": [
+    80,
+    500
+   ]
+  },
+  {
+   "frame": 192,
+   "voice": "FX",
+   "description": "Scanline prints top pass: print zip (BP noise 2->6 kHz, 90 ms, L->R, -16 dB)",
+   "check": "onset",
+   "band": [
+    1800,
+    3200
+   ]
+  },
+  {
+   "frame": 192,
+   "voice": "HAT",
+   "description": "16th hats start (192-258)",
+   "check": "group",
+   "end": 263,
+   "band": [
+    7000,
+    16000
+   ],
+   "subs": [
+    192,
+    198,
+    204,
+    210,
+    216,
+    222,
+    228,
+    234,
+    240,
+    246,
+    252,
+    258
+   ]
+  },
+  {
+   "frame": 192,
+   "voice": "KICK",
+   "description": "Bar 3: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 198,
+   "voice": "FX",
+   "description": "Scanline prints middle pass: print zip (BP noise 2->6 kHz, 90 ms, L->R, -16 dB)",
+   "check": "onset",
+   "band": [
+    1800,
+    3200
+   ]
+  },
+  {
+   "frame": 204,
+   "voice": "FX",
+   "description": "Scanline prints bottom pass: print zip (BP noise 2->6 kHz, 90 ms, L->R, -16 dB)",
+   "check": "onset",
+   "band": [
+    1800,
+    3200
+   ]
+  },
+  {
+   "frame": 210,
+   "voice": "FX",
+   "description": "Scanline prints stem pass: print zip (BP noise 2->6 kHz, 90 ms, L->R, -16 dB)",
+   "check": "onset",
+   "band": [
+    1800,
+    3200
+   ]
+  },
+  {
+   "frame": 216,
+   "voice": "FM",
+   "description": "Re-layout: short Fm stab",
+   "check": "onset",
+   "band": [
+    300,
+    900
+   ]
+  },
+  {
+   "frame": 216,
+   "voice": "KICK",
+   "description": "Re-layout: tom",
+   "check": "onset",
+   "band": [
+    80,
+    200
+   ]
+  },
+  {
+   "frame": 234,
+   "voice": "FX",
+   "description": "Merge wipe: tape-wipe swish L->R landing in the snare at 240",
+   "check": "end",
+   "end": 240,
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 240,
+   "voice": "SNARE",
+   "description": "Merge lands: snare (full-frame BEAUTY)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 252,
+   "voice": "DOT",
+   "description": "Dot leaves for the tittle: DOT pluck F5",
+   "check": "onset",
+   "band": [
+    629,
+    754
+   ],
+   "pan": -0.13
+  },
+  {
+   "frame": 252,
+   "voice": "DOT",
+   "description": "Sine tail gliding 400->900 Hz to 261 (dot glide to T_DOT)",
+   "check": "span",
+   "end": 261,
+   "band": [
+    380,
+    950
+   ]
+  },
+  {
+   "frame": 252,
+   "voice": "FM",
+   "description": "top window collapses to hairline: sine tink C6",
+   "check": "onset",
+   "band": [
+    942,
+    1151
+   ]
+  },
+  {
+   "frame": 255,
+   "voice": "FM",
+   "description": "middle window collapses to hairline: sine tink Eb6",
+   "check": "onset",
+   "band": [
+    1120,
+    1369
+   ]
+  },
+  {
+   "frame": 258,
+   "voice": "FM",
+   "description": "bottom window collapses to hairline: sine tink F6",
+   "check": "onset",
+   "band": [
+    1257,
+    1537
+   ]
+  },
+  {
+   "frame": 264,
+   "voice": "FX",
+   "description": "Top hairline retracts: hiss panned centre -> right",
+   "check": "span",
+   "end": 276,
+   "band": [
+    6000,
+    14000
+   ]
+  },
+  {
+   "frame": 264,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 1): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 264,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 2 — PLANE\" -> \"FIG. 3 — LENS\": one mono tick per character (14), -32 dB (tone G7)",
+   "check": "group",
+   "end": 277,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 265,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 2): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 266,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 3): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 267,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 4): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 268,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 5): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 269,
+   "voice": "TICK",
+   "description": "Paired glyphs rise (row step 6): typewriter ticks, first-word row L, second-word row R",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ]
+  },
+  {
+   "frame": 276,
+   "voice": "FM",
+   "description": "F6 ping (tittle squash)",
+   "check": "onset",
+   "band": [
+    1285,
+    1509
+   ],
+   "pan": 0.4
+  },
+  {
+   "frame": 276,
+   "voice": "TICK",
+   "description": "The dotless i arrives under the dot: crisp click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": 0.4
+  },
+  {
+   "frame": 288,
+   "voice": "FX",
+   "description": "Weight wave: low stretch whoosh",
+   "check": "span",
+   "end": 310,
+   "band": [
+    150,
+    500
+   ]
+  },
+  {
+   "frame": 288,
+   "voice": "HAT",
+   "description": "16th hats (288-354)",
+   "check": "group",
+   "end": 359,
+   "band": [
+    7000,
+    16000
+   ],
+   "subs": [
+    288,
+    294,
+    300,
+    306,
+    312,
+    318,
+    324,
+    330,
+    336,
+    342,
+    348,
+    354
+   ]
+  },
+  {
+   "frame": 288,
+   "voice": "KICK",
+   "description": "Weight wave: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 288,
+   "voice": "TICK",
+   "description": "Weight wave glyph 1: pitched tick F4",
+   "check": "onset",
+   "band": [
+    321,
+    377
+   ],
+   "pan": -0.6
+  },
+  {
+   "frame": 290,
+   "voice": "TICK",
+   "description": "Weight wave glyph 2: pitched tick G4",
+   "check": "onset",
+   "band": [
+    361,
+    423
+   ],
+   "pan": -0.36
+  },
+  {
+   "frame": 292,
+   "voice": "TICK",
+   "description": "Weight wave glyph 3: pitched tick Ab4",
+   "check": "onset",
+   "band": [
+    382,
+    449
+   ],
+   "pan": -0.12
+  },
+  {
+   "frame": 294,
+   "voice": "TICK",
+   "description": "Weight wave glyph 4: pitched tick Bb4",
+   "check": "onset",
+   "band": [
+    429,
+    503
+   ],
+   "pan": 0.12
+  },
+  {
+   "frame": 296,
+   "voice": "TICK",
+   "description": "Weight wave glyph 5: pitched tick C5",
+   "check": "onset",
+   "band": [
+    481,
+    565
+   ],
+   "pan": 0.36
+  },
+  {
+   "frame": 298,
+   "voice": "TICK",
+   "description": "Weight wave glyph 6: pitched tick Eb5",
+   "check": "onset",
+   "band": [
+    572,
+    672
+   ],
+   "pan": 0.6
+  },
+  {
+   "frame": 300,
+   "voice": "FX",
+   "description": "K swings in: high-Q whoosh (BP Q12, 6 kHz -> 1.2 kHz), right -> centre",
+   "check": "onset",
+   "end": 312,
+   "band": [
+    4000,
+    7000
+   ]
+  },
+  {
+   "frame": 312,
+   "voice": "CLAP",
+   "description": "K lands: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 312,
+   "voice": "FM",
+   "description": "Shockwave: glass clink FM 1:2.76 on C6",
+   "check": "onset",
+   "band": [
+    942,
+    1151
+   ],
+   "pan": 0.35
+  },
+  {
+   "frame": 312,
+   "voice": "FX",
+   "description": "Shockwave: 8-bit noise burst, 60 ms",
+   "check": "onset",
+   "band": [
+    3000,
+    12000
+   ]
+  },
+  {
+   "frame": 312,
+   "voice": "KICK",
+   "description": "K lands: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 312,
+   "voice": "SUB",
+   "description": "Shockwave: sub drop 60->30 Hz over 250 ms",
+   "check": "onset",
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 336,
+   "voice": "FX",
+   "description": "Serif flip M: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": -0.55
+  },
+  {
+   "frame": 336,
+   "voice": "FX",
+   "description": "Noise riser 336->372 (32nd gate + -12 st dive from 360)",
+   "check": "end",
+   "end": 372,
+   "band": [
+    1600,
+    5000
+   ]
+  },
+  {
+   "frame": 336,
+   "voice": "FX",
+   "description": "Shepard tone 336->372 (6 octave-spaced sines, rising; dives from 360)",
+   "check": "end",
+   "end": 372,
+   "band": [
+    500,
+    1000
+   ]
+  },
+  {
+   "frame": 336,
+   "voice": "KICK",
+   "description": "Serif flips begin: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 336,
+   "voice": "SNARE",
+   "description": "Serif flip M: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": -0.55
+  },
+  {
+   "frame": 342,
+   "voice": "FX",
+   "description": "Serif flip O: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": -0.33000000000000007
+  },
+  {
+   "frame": 342,
+   "voice": "SNARE",
+   "description": "Serif flip O: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": -0.33000000000000007
+  },
+  {
+   "frame": 348,
+   "voice": "FX",
+   "description": "Serif flip T: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": -0.11000000000000004
+  },
+  {
+   "frame": 348,
+   "voice": "SNARE",
+   "description": "Serif flip T: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": -0.11000000000000004
+  },
+  {
+   "frame": 351,
+   "voice": "FX",
+   "description": "Serif flip I: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": 0.10999999999999999
+  },
+  {
+   "frame": 351,
+   "voice": "SNARE",
+   "description": "Serif flip I: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": 0.10999999999999999
+  },
+  {
+   "frame": 354,
+   "voice": "FX",
+   "description": "Serif flip O: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": 0.32999999999999996
+  },
+  {
+   "frame": 354,
+   "voice": "SNARE",
+   "description": "Serif flip O: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": 0.32999999999999996
+  },
+  {
+   "frame": 357,
+   "voice": "FX",
+   "description": "Serif flip N: 20 ms bitcrush glitch",
+   "check": "onset",
+   "band": [
+    3000,
+    10000
+   ],
+   "pan": 0.55
+  },
+  {
+   "frame": 357,
+   "voice": "SNARE",
+   "description": "Serif flip N: snare",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ],
+   "pan": 0.55
+  },
+  {
+   "frame": 360,
+   "voice": "DOT",
+   "description": "Dot takes off: DOT pluck Ab5",
+   "check": "onset",
+   "band": [
+    748,
+    897
+   ],
+   "pan": 0.37
+  },
+  {
+   "frame": 360,
+   "voice": "TICK",
+   "description": "Type drops through its slot (6 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": 0.6
+  },
+  {
+   "frame": 361,
+   "voice": "TICK",
+   "description": "Type drops through its slot (5 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": 0.36
+  },
+  {
+   "frame": 362,
+   "voice": "TICK",
+   "description": "Type drops through its slot (4 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": 0.12
+  },
+  {
+   "frame": 363,
+   "voice": "TICK",
+   "description": "Type drops through its slot (3 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": -0.12
+  },
+  {
+   "frame": 364,
+   "voice": "FX",
+   "description": "Stem slot cut: short \"shhk\" (callback to 168)",
+   "check": "onset",
+   "band": [
+    2200,
+    4200
+   ]
+  },
+  {
+   "frame": 364,
+   "voice": "FX",
+   "description": "Hairlines retract: hiss",
+   "check": "span",
+   "end": 370,
+   "band": [
+    6000,
+    14000
+   ]
+  },
+  {
+   "frame": 364,
+   "voice": "TICK",
+   "description": "Type drops through its slot (2 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": -0.36
+  },
+  {
+   "frame": 365,
+   "voice": "TICK",
+   "description": "Type drops through its slot (1 of 6, right to left): reverse typewriter tick",
+   "check": "onset",
+   "band": [
+    1500,
+    4000
+   ],
+   "pan": -0.6
+  },
+  {
+   "frame": 372,
+   "voice": "FOLEY",
+   "description": "Dot lands in the V: wood tock (dry, post-gate, <=15 ms)",
+   "check": "foley",
+   "band": [
+    500,
+    4000
+   ]
+  },
+  {
+   "frame": 372,
+   "voice": "GATE",
+   "description": "G1: digital zero 297,600-307,199 (f372-383)",
+   "check": "gate",
+   "end": 383
+  },
+  {
+   "frame": 384,
+   "voice": "FOLEY",
+   "description": "Lights on: relay click",
+   "check": "onset",
+   "band": [
+    1500,
+    5000
+   ]
+  },
+  {
+   "frame": 384,
+   "voice": "FX",
+   "description": "Light sheet: BP noise 0.8->5 kHz panned L->R over 12f",
+   "check": "onset",
+   "end": 396,
+   "band": [
+    700,
+    1500
+   ]
+  },
+  {
+   "frame": 384,
+   "voice": "PAD",
+   "description": "Fm9 pad enters (F2, C3, Ab3, Eb4, G4), ends at 468",
+   "check": "onset",
+   "end": 468,
+   "band": [
+    80,
+    500
+   ]
+  },
+  {
+   "frame": 384,
+   "voice": "SUB",
+   "description": "Lights on: 50 Hz thump",
+   "check": "onset",
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 384,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 3 — LENS\" -> \"FIG. 4 — VOLUME\": one mono tick per character (15), -32 dB (tone G7)",
+   "check": "group",
+   "end": 398,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 396,
+   "voice": "FM",
+   "description": "Breath: glass bell F4 (FM 1:2)",
+   "check": "onset",
+   "band": [
+    314,
+    384
+   ]
+  },
+  {
+   "frame": 408,
+   "voice": "FM",
+   "description": "Breath: glass bell Ab4 (FM 1:2)",
+   "check": "onset",
+   "band": [
+    374,
+    457
+   ]
+  },
+  {
+   "frame": 420,
+   "voice": "FM",
+   "description": "Breath: glass bell C5 (FM 1:2)",
+   "check": "onset",
+   "band": [
+    471,
+    576
+   ]
+  },
+  {
+   "frame": 420,
+   "voice": "SUB",
+   "description": "F1 sub swell from 420 (ends at 468)",
+   "check": "span",
+   "end": 468,
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 432,
+   "voice": "FM",
+   "description": "Breath: glass bell Eb5 (FM 1:2), pan follows camera yaw",
+   "check": "onset",
+   "band": [
+    560,
+    684
+   ]
+  },
+  {
+   "frame": 444,
+   "voice": "FM",
+   "description": "Breath: glass bell C5 (FM 1:2), pan follows camera yaw",
+   "check": "onset",
+   "band": [
+    471,
+    576
+   ]
+  },
+  {
+   "frame": 452,
+   "voice": "DOT",
+   "description": "Ball lifts out of the notch: DOT pluck C6",
+   "check": "onset",
+   "band": [
+    942,
+    1130
+   ]
+  },
+  {
+   "frame": 452,
+   "voice": "DOT",
+   "description": "Sine glide F5->C6 over 452-464",
+   "check": "span",
+   "end": 464,
+   "band": [
+    650,
+    1100
+   ]
+  },
+  {
+   "frame": 456,
+   "voice": "FM",
+   "description": "Breath: glass bell Ab4 (FM 1:2), pan follows camera yaw",
+   "check": "onset",
+   "band": [
+    374,
+    457
+   ]
+  },
+  {
+   "frame": 456,
+   "voice": "FX",
+   "description": "Build to the vacuum: reverse-reverb riser ending at 468",
+   "check": "end",
+   "end": 468,
+   "band": [
+    5000,
+    12000
+   ]
+  },
+  {
+   "frame": 468,
+   "voice": "FOLEY",
+   "description": "Blackout: relay-off click (3 ms, dry, post-gate)",
+   "check": "foley",
+   "band": [
+    1500,
+    6000
+   ]
+  },
+  {
+   "frame": 468,
+   "voice": "GATE",
+   "description": "G2: digital zero 374,400-383,999 (f468-479)",
+   "check": "gate",
+   "end": 479
+  },
+  {
+   "frame": 480,
+   "voice": "FX",
+   "description": "DROP: noise crash",
+   "check": "onset",
+   "band": [
+    5000,
+    14000
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "FX",
+   "description": "DROP: wet splat (noise, LP 8 kHz -> 300 Hz over 150 ms)",
+   "check": "onset",
+   "band": [
+    2000,
+    8000
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "FX",
+   "description": "Wall pumps: wet thump on the kick (LP 2 kHz -> 200 Hz, 80 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    2000
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "HAT",
+   "description": "Drop groove: 16th hats (open on the offbeat 8ths)",
+   "check": "group",
+   "end": 575,
+   "band": [
+    7000,
+    16000
+   ],
+   "subs": [
+    480,
+    486,
+    492,
+    498,
+    504,
+    510,
+    516,
+    522,
+    528,
+    534,
+    540,
+    546,
+    552,
+    558,
+    564,
+    570
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "KICK",
+   "description": "DROP: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "REESE",
+   "description": "Drop groove: reese alternating F1 / Ab1 per beat, sidechained",
+   "check": "span",
+   "end": 575,
+   "band": [
+    150,
+    900
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "SUB",
+   "description": "DROP: 808 glide F2->F1 over 300 ms",
+   "check": "onset",
+   "band": [
+    80,
+    130
+   ]
+  },
+  {
+   "frame": 480,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 4 — VOLUME\" -> \"FIG. 5 — FLOW\": one mono tick per character (15), -32 dB (tone G7)",
+   "check": "group",
+   "end": 494,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 492,
+   "voice": "FX",
+   "description": "Ink pours: bloop (sine 800->200 Hz, 90 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    900
+   ]
+  },
+  {
+   "frame": 492,
+   "voice": "GRAINS",
+   "description": "Ink pours: 20 bubbly grains",
+   "check": "span",
+   "end": 507,
+   "band": [
+    300,
+    2500
+   ]
+  },
+  {
+   "frame": 504,
+   "voice": "CLAP",
+   "description": "Drop groove: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 504,
+   "voice": "FX",
+   "description": "Wall pumps: wet thump on the kick (LP 2 kHz -> 200 Hz, 80 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    2000
+   ]
+  },
+  {
+   "frame": 504,
+   "voice": "KICK",
+   "description": "Drop groove: kick on the beat",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 516,
+   "voice": "FX",
+   "description": "Ink pours: bloop (sine 800->200 Hz, 90 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    900
+   ]
+  },
+  {
+   "frame": 516,
+   "voice": "GRAINS",
+   "description": "Ink pours: 20 bubbly grains",
+   "check": "span",
+   "end": 531,
+   "band": [
+    300,
+    2500
+   ]
+  },
+  {
+   "frame": 528,
+   "voice": "FX",
+   "description": "Wall pumps: wet thump on the kick (LP 2 kHz -> 200 Hz, 80 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    2000
+   ]
+  },
+  {
+   "frame": 528,
+   "voice": "KICK",
+   "description": "Drop groove: kick on the beat",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 540,
+   "voice": "FX",
+   "description": "Ink pours: bloop (sine 800->200 Hz, 90 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    900
+   ]
+  },
+  {
+   "frame": 540,
+   "voice": "GRAINS",
+   "description": "Ink pours: 20 bubbly grains",
+   "check": "span",
+   "end": 555,
+   "band": [
+    300,
+    2500
+   ]
+  },
+  {
+   "frame": 552,
+   "voice": "CLAP",
+   "description": "Rupture: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 552,
+   "voice": "FX",
+   "description": "Wall pumps: wet thump on the kick (LP 2 kHz -> 200 Hz, 80 ms)",
+   "check": "onset",
+   "band": [
+    500,
+    2000
+   ]
+  },
+  {
+   "frame": 552,
+   "voice": "KICK",
+   "description": "Drop groove: kick on the beat",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 552,
+   "voice": "SNARE",
+   "description": "Rupture: snare 1 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 558,
+   "voice": "SNARE",
+   "description": "Rupture: snare 2 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 564,
+   "voice": "FX",
+   "description": "Flood front: two-band splash whoosh (peaks at 574, sucks out into 576)",
+   "check": "end",
+   "end": 575,
+   "band": [
+    2500,
+    9000
+   ]
+  },
+  {
+   "frame": 564,
+   "voice": "SNARE",
+   "description": "Rupture: snare 3 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 567,
+   "voice": "SNARE",
+   "description": "Rupture: snare 4 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 570,
+   "voice": "SNARE",
+   "description": "Rupture: snare 5 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 573,
+   "voice": "SNARE",
+   "description": "Rupture: snare 6 of 6 (pitch and LP rise)",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "FM",
+   "description": "DROP 2: Fm stab",
+   "check": "onset",
+   "band": [
+    300,
+    900
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "FM",
+   "description": "Groove B: FM pluck arp, F minor pentatonic 16ths, 3/16 ping-pong delay (18f)",
+   "check": "span",
+   "end": 647,
+   "band": [
+    330,
+    900
+   ],
+   "subs": [
+    576,
+    582,
+    588,
+    594,
+    600,
+    606,
+    612,
+    618,
+    624,
+    630,
+    636,
+    642
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "FX",
+   "description": "Slash: two high-passed noise zips, hard left and hard right, 576-579",
+   "check": "onset",
+   "band": [
+    6000,
+    14000
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "GRAINS",
+   "description": "Groove B: glitter grain bed",
+   "check": "span",
+   "end": 647,
+   "band": [
+    5000,
+    12000
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "KICK",
+   "description": "DROP 2: kick (no crash)",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "SUB",
+   "description": "DROP 2: F1 sub",
+   "check": "onset",
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 576,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 5 — FLOW\" -> \"FIG. 6 — FIELD\": one mono tick per character (14), -32 dB (tone G7)",
+   "check": "group",
+   "end": 589,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 579,
+   "voice": "GRAINS",
+   "description": "Slash shatters: glitter burst, 120 grains 4-10 kHz, edges -> centre",
+   "check": "onset",
+   "end": 585,
+   "band": [
+    4000,
+    10000
+   ]
+  },
+  {
+   "frame": 600,
+   "voice": "CLAP",
+   "description": "Groove B: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 600,
+   "voice": "DOT",
+   "description": "Comet launches: DOT pluck C6",
+   "check": "onset",
+   "band": [
+    942,
+    1130
+   ],
+   "pan": 0.3
+  },
+  {
+   "frame": 600,
+   "voice": "GRAINS",
+   "description": "Peel + comet launch: 300 grains 2-8 kHz, edges -> centre",
+   "check": "onset",
+   "end": 626,
+   "band": [
+    2000,
+    8000
+   ]
+  },
+  {
+   "frame": 600,
+   "voice": "KICK",
+   "description": "Groove B: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 624,
+   "voice": "FM",
+   "description": "Lattice snap: dry metallic snap (FM 1:3.5, 40 ms) on the kick + sidechain pump",
+   "check": "onset",
+   "band": [
+    600,
+    3000
+   ]
+  },
+  {
+   "frame": 624,
+   "voice": "KICK",
+   "description": "Groove B: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 636,
+   "voice": "GRAINS",
+   "description": "Converge: reverse granular swell rising in pitch, ending at 672",
+   "check": "end",
+   "end": 672,
+   "band": [
+    500,
+    4000
+   ]
+  },
+  {
+   "frame": 648,
+   "voice": "CLAP",
+   "description": "Groove B: clap",
+   "check": "onset",
+   "band": [
+    800,
+    2600
+   ]
+  },
+  {
+   "frame": 648,
+   "voice": "FX",
+   "description": "Tape-stretch over 648-672 (arp, delay, glitter bed and sub slow down); drums out after 648",
+   "check": "span",
+   "end": 672,
+   "band": [
+    100,
+    1000
+   ]
+  },
+  {
+   "frame": 648,
+   "voice": "KICK",
+   "description": "Groove B: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 660,
+   "voice": "DOT",
+   "description": "Comet lands at S0: quiet DOT pluck F5",
+   "check": "onset",
+   "band": [
+    629,
+    754
+   ],
+   "pan": -0.6
+  },
+  {
+   "frame": 672,
+   "voice": "GRAINS",
+   "description": "Resolve dissolve: granular fizz sweeping L->R over 672-684",
+   "check": "onset",
+   "end": 684,
+   "band": [
+    9000,
+    13000
+   ]
+  },
+  {
+   "frame": 672,
+   "voice": "PAD",
+   "description": "Name resolves: soft Fm(add9) chord, no kick",
+   "check": "onset",
+   "band": [
+    300,
+    900
+   ]
+  },
+  {
+   "frame": 672,
+   "voice": "SUB",
+   "description": "Reading time: F1 sub (672-767)",
+   "check": "span",
+   "end": 767,
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 672,
+   "voice": "TICK",
+   "description": "HUD FIG re-resolve \"FIG. 6 — FIELD\" -> \"FIG. 7 — FULL STOP\": one mono tick per character (18), -32 dB (tone G7)",
+   "check": "group",
+   "end": 689,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    672,
+    673,
+    674,
+    675,
+    676,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689
+   ],
+   "tickHz": 3136,
+   "levelDb": -32,
+   "hud": true
+  },
+  {
+   "frame": 708,
+   "voice": "FOLEY",
+   "description": "Dot squashes at S0: soft felt \"tuck\" (LP 400 Hz, 40 ms)",
+   "check": "onset",
+   "band": [
+    50,
+    400
+   ],
+   "pan": -0.55
+  },
+  {
+   "frame": 712,
+   "voice": "DOT",
+   "description": "Hop to the first letter: DOT pluck F4",
+   "check": "onset",
+   "band": [
+    314,
+    377
+   ],
+   "pan": -0.62
+  },
+  {
+   "frame": 720,
+   "voice": "FM",
+   "description": "Touch N: signature bell F4 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    314,
+    384
+   ],
+   "pan": -0.7604049493813274
+  },
+  {
+   "frame": 720,
+   "voice": "TICK",
+   "description": "Touch N: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": -0.7604049493813274
+  },
+  {
+   "frame": 726,
+   "voice": "FM",
+   "description": "Touch E: signature bell Ab4 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    374,
+    457
+   ],
+   "pan": -0.467941507311586
+  },
+  {
+   "frame": 726,
+   "voice": "TICK",
+   "description": "Touch E: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": -0.467941507311586
+  },
+  {
+   "frame": 732,
+   "voice": "FM",
+   "description": "Touch K: signature bell C5 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    471,
+    576
+   ],
+   "pan": -0.18278965129358832
+  },
+  {
+   "frame": 732,
+   "voice": "TICK",
+   "description": "Touch K: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": -0.18278965129358832
+  },
+  {
+   "frame": 738,
+   "voice": "FM",
+   "description": "Touch V: signature bell Eb5 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    560,
+    684
+   ],
+   "pan": 0.08042744656917886
+  },
+  {
+   "frame": 738,
+   "voice": "TICK",
+   "description": "Touch V: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": 0.08042744656917886
+  },
+  {
+   "frame": 744,
+   "voice": "FM",
+   "description": "Touch I: signature bell F5 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    629,
+    768
+   ],
+   "pan": 0.29977502812148477
+  },
+  {
+   "frame": 744,
+   "voice": "TICK",
+   "description": "Touch I: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": 0.29977502812148477
+  },
+  {
+   "frame": 750,
+   "voice": "FM",
+   "description": "Touch T: signature bell C6 (FM 1:2, 1.2 s), window opens",
+   "check": "onset",
+   "band": [
+    942,
+    1151
+   ],
+   "pan": 0.5044994375703037
+  },
+  {
+   "frame": 750,
+   "voice": "TICK",
+   "description": "Touch T: 3 ms touch click",
+   "check": "onset",
+   "band": [
+    3000,
+    9000
+   ],
+   "pan": 0.5044994375703037
+  },
+  {
+   "frame": 754,
+   "voice": "DOT",
+   "description": "Final hop takes off: DOT pluck C6",
+   "check": "onset",
+   "band": [
+    942,
+    1130
+   ],
+   "pan": 0.4
+  },
+  {
+   "frame": 754,
+   "voice": "FX",
+   "description": "Reverse crash ending at 768",
+   "check": "end",
+   "end": 768,
+   "band": [
+    9000,
+    16000
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "FOLEY",
+   "description": "FINAL HIT: landing thock",
+   "check": "onset",
+   "band": [
+    200,
+    800
+   ],
+   "pan": 0.66
+  },
+  {
+   "frame": 768,
+   "voice": "FX",
+   "description": "FINAL HIT: crash",
+   "check": "onset",
+   "band": [
+    5000,
+    14000
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "FX",
+   "description": "Rule zips right to left: 3->6 kHz zip (callback to the f24 zip)",
+   "check": "onset",
+   "end": 780,
+   "band": [
+    2850,
+    3300
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "KICK",
+   "description": "FINAL HIT: kick",
+   "check": "onset",
+   "band": [
+    40,
+    160
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "PAD",
+   "description": "FINAL HIT: full Fm(add9) stab (0.6 s; the hall carries the tail)",
+   "check": "onset",
+   "band": [
+    150,
+    700
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "SUB",
+   "description": "FINAL HIT: F1 sub",
+   "check": "onset",
+   "band": [
+    30,
+    120
+   ]
+  },
+  {
+   "frame": 768,
+   "voice": "TICK",
+   "description": "Windows snap shut (bottom to top): four shutter clicks over 768-771 (tone C9)",
+   "check": "group",
+   "end": 771,
+   "band": [
+    7870,
+    8874
+   ],
+   "subs": [
+    768,
+    769,
+    770,
+    771
+   ],
+   "tickHz": 8372,
+   "levelDb": -13
+  },
+  {
+   "frame": 792,
+   "voice": "FM",
+   "description": "Role line prints in: F6 harmonic",
+   "check": "span",
+   "end": 812,
+   "band": [
+    1327,
+    1467
+   ]
+  },
+  {
+   "frame": 792,
+   "voice": "FX",
+   "description": "Role line prints in: air swell (BP noise at 1.5 kHz, 20f)",
+   "check": "span",
+   "end": 812,
+   "band": [
+    1100,
+    2000
+   ]
+  },
+  {
+   "frame": 792,
+   "voice": "TICK",
+   "description": "Year digit 1 types on: tick",
+   "check": "onset",
+   "band": [
+    1946,
+    2240
+   ],
+   "pan": 0.5
+  },
+  {
+   "frame": 795,
+   "voice": "TICK",
+   "description": "Year digit 2 types on: tick",
+   "check": "onset",
+   "band": [
+    2315,
+    2663
+   ],
+   "pan": 0.5
+  },
+  {
+   "frame": 798,
+   "voice": "TICK",
+   "description": "Year digit 3 types on: tick",
+   "check": "onset",
+   "band": [
+    2598,
+    2989
+   ],
+   "pan": 0.5
+  },
+  {
+   "frame": 800,
+   "voice": "TICK",
+   "description": "HUD types off: one tick per frame, -36 dB (tone G7)",
+   "check": "group",
+   "end": 811,
+   "band": [
+    2948,
+    3324
+   ],
+   "subs": [
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811
+   ],
+   "tickHz": 3136,
+   "levelDb": -36,
+   "hud": true
+  },
+  {
+   "frame": 801,
+   "voice": "TICK",
+   "description": "Year digit 4 types on: tick",
+   "check": "onset",
+   "band": [
+    3090,
+    3555
+   ],
+   "pan": 0.5
+  },
+  {
+   "frame": 812,
+   "voice": "FX",
+   "description": "Poster: reverb tail",
+   "check": "span",
+   "end": 899,
+   "band": [
+    100,
+    4000
+   ]
+  },
+  {
+   "frame": 840,
+   "voice": "FX",
+   "description": "Room tone at -60 dB from 840",
+   "check": "span",
+   "end": 899,
+   "band": [
+    100,
+    2000
+   ]
+  },
+  {
+   "frame": 870,
+   "voice": "FX",
+   "description": "Fade 870 -> digital silence at 899",
+   "check": "fade",
+   "end": 899
+  }
+ ],
+ "transients": [
+  [
+   0,
+   144
+  ],
+  [
+   0,
+   144
+  ],
+  [
+   0,
+   144
+  ],
+  [
+   4800,
+   192
+  ],
+  [
+   5600,
+   192
+  ],
+  [
+   6400,
+   192
+  ],
+  [
+   7200,
+   192
+  ],
+  [
+   8000,
+   192
+  ],
+  [
+   8800,
+   192
+  ],
+  [
+   9600,
+   144
+  ],
+  [
+   9600,
+   144
+  ],
+  [
+   9600,
+   192
+  ],
+  [
+   10400,
+   192
+  ],
+  [
+   11200,
+   192
+  ],
+  [
+   12000,
+   192
+  ],
+  [
+   12800,
+   192
+  ],
+  [
+   13600,
+   192
+  ],
+  [
+   14400,
+   192
+  ],
+  [
+   15200,
+   192
+  ],
+  [
+   19200,
+   144
+  ],
+  [
+   19200,
+   144
+  ],
+  [
+   28800,
+   144
+  ],
+  [
+   28800,
+   144
+  ],
+  [
+   38400,
+   144
+  ],
+  [
+   38400,
+   144
+  ],
+  [
+   48000,
+   144
+  ],
+  [
+   48000,
+   144
+  ],
+  [
+   57600,
+   144
+  ],
+  [
+   57600,
+   144
+  ],
+  [
+   57600,
+   48
+  ],
+  [
+   62400,
+   48
+  ],
+  [
+   67200,
+   144
+  ],
+  [
+   67200,
+   144
+  ],
+  [
+   67200,
+   48
+  ],
+  [
+   72000,
+   48
+  ],
+  [
+   76800,
+   144
+  ],
+  [
+   76800,
+   1440
+  ],
+  [
+   76800,
+   96
+  ],
+  [
+   76800,
+   48
+  ],
+  [
+   76800,
+   192
+  ],
+  [
+   77600,
+   192
+  ],
+  [
+   78400,
+   192
+  ],
+  [
+   79200,
+   192
+  ],
+  [
+   80000,
+   192
+  ],
+  [
+   80800,
+   192
+  ],
+  [
+   81600,
+   96
+  ],
+  [
+   81600,
+   192
+  ],
+  [
+   82400,
+   192
+  ],
+  [
+   83200,
+   192
+  ],
+  [
+   84000,
+   192
+  ],
+  [
+   84800,
+   192
+  ],
+  [
+   85600,
+   192
+  ],
+  [
+   86400,
+   96
+  ],
+  [
+   86400,
+   48
+  ],
+  [
+   86400,
+   192
+  ],
+  [
+   87200,
+   192
+  ],
+  [
+   96000,
+   48
+  ],
+  [
+   105600,
+   144
+  ],
+  [
+   105600,
+   48
+  ],
+  [
+   115200,
+   1440
+  ],
+  [
+   115200,
+   48
+  ],
+  [
+   124800,
+   48
+  ],
+  [
+   134400,
+   144
+  ],
+  [
+   134400,
+   48
+  ],
+  [
+   134400,
+   144
+  ],
+  [
+   134400,
+   192
+  ],
+  [
+   135200,
+   192
+  ],
+  [
+   136000,
+   192
+  ],
+  [
+   136800,
+   192
+  ],
+  [
+   137600,
+   192
+  ],
+  [
+   138400,
+   192
+  ],
+  [
+   139200,
+   96
+  ],
+  [
+   139200,
+   192
+  ],
+  [
+   140000,
+   192
+  ],
+  [
+   140800,
+   192
+  ],
+  [
+   141600,
+   192
+  ],
+  [
+   142400,
+   192
+  ],
+  [
+   143200,
+   192
+  ],
+  [
+   144000,
+   48
+  ],
+  [
+   144000,
+   192
+  ],
+  [
+   144800,
+   192
+  ],
+  [
+   153600,
+   144
+  ],
+  [
+   153600,
+   1440
+  ],
+  [
+   153600,
+   48
+  ],
+  [
+   158400,
+   48
+  ],
+  [
+   163200,
+   48
+  ],
+  [
+   168000,
+   48
+  ],
+  [
+   172800,
+   48
+  ],
+  [
+   172800,
+   96
+  ],
+  [
+   177600,
+   48
+  ],
+  [
+   182400,
+   48
+  ],
+  [
+   187200,
+   48
+  ],
+  [
+   192000,
+   48
+  ],
+  [
+   192000,
+   1440
+  ],
+  [
+   196800,
+   48
+  ],
+  [
+   201600,
+   48
+  ],
+  [
+   206400,
+   48
+  ],
+  [
+   211200,
+   144
+  ],
+  [
+   211200,
+   144
+  ],
+  [
+   211200,
+   192
+  ],
+  [
+   212000,
+   144
+  ],
+  [
+   212000,
+   144
+  ],
+  [
+   212000,
+   192
+  ],
+  [
+   212800,
+   144
+  ],
+  [
+   212800,
+   144
+  ],
+  [
+   212800,
+   192
+  ],
+  [
+   213600,
+   144
+  ],
+  [
+   213600,
+   144
+  ],
+  [
+   213600,
+   192
+  ],
+  [
+   214400,
+   144
+  ],
+  [
+   214400,
+   144
+  ],
+  [
+   214400,
+   192
+  ],
+  [
+   215200,
+   144
+  ],
+  [
+   215200,
+   144
+  ],
+  [
+   215200,
+   192
+  ],
+  [
+   216000,
+   192
+  ],
+  [
+   216800,
+   192
+  ],
+  [
+   217600,
+   192
+  ],
+  [
+   218400,
+   192
+  ],
+  [
+   219200,
+   192
+  ],
+  [
+   220000,
+   192
+  ],
+  [
+   220800,
+   96
+  ],
+  [
+   220800,
+   192
+  ],
+  [
+   221600,
+   192
+  ],
+  [
+   230400,
+   144
+  ],
+  [
+   230400,
+   96
+  ],
+  [
+   230400,
+   48
+  ],
+  [
+   232000,
+   96
+  ],
+  [
+   233600,
+   96
+  ],
+  [
+   235200,
+   96
+  ],
+  [
+   235200,
+   48
+  ],
+  [
+   236800,
+   96
+  ],
+  [
+   238400,
+   96
+  ],
+  [
+   240000,
+   48
+  ],
+  [
+   244800,
+   48
+  ],
+  [
+   249600,
+   144
+  ],
+  [
+   249600,
+   1440
+  ],
+  [
+   249600,
+   48
+  ],
+  [
+   249600,
+   48
+  ],
+  [
+   249600,
+   96
+  ],
+  [
+   254400,
+   48
+  ],
+  [
+   259200,
+   48
+  ],
+  [
+   264000,
+   48
+  ],
+  [
+   268800,
+   144
+  ],
+  [
+   268800,
+   48
+  ],
+  [
+   268800,
+   1440
+  ],
+  [
+   268800,
+   144
+  ],
+  [
+   273600,
+   48
+  ],
+  [
+   273600,
+   1440
+  ],
+  [
+   273600,
+   144
+  ],
+  [
+   278400,
+   48
+  ],
+  [
+   278400,
+   1440
+  ],
+  [
+   278400,
+   144
+  ],
+  [
+   280800,
+   1440
+  ],
+  [
+   280800,
+   144
+  ],
+  [
+   283200,
+   48
+  ],
+  [
+   283200,
+   1440
+  ],
+  [
+   283200,
+   144
+  ],
+  [
+   285600,
+   1440
+  ],
+  [
+   285600,
+   144
+  ],
+  [
+   288000,
+   864
+  ],
+  [
+   288800,
+   864
+  ],
+  [
+   289600,
+   864
+  ],
+  [
+   290400,
+   864
+  ],
+  [
+   291200,
+   864
+  ],
+  [
+   291200,
+   144
+  ],
+  [
+   292000,
+   864
+  ],
+  [
+   307200,
+   576
+  ],
+  [
+   307200,
+   192
+  ],
+  [
+   308000,
+   192
+  ],
+  [
+   308800,
+   192
+  ],
+  [
+   309600,
+   192
+  ],
+  [
+   310400,
+   192
+  ],
+  [
+   311200,
+   192
+  ],
+  [
+   312000,
+   192
+  ],
+  [
+   312800,
+   192
+  ],
+  [
+   313600,
+   192
+  ],
+  [
+   314400,
+   192
+  ],
+  [
+   315200,
+   192
+  ],
+  [
+   316000,
+   192
+  ],
+  [
+   316800,
+   192
+  ],
+  [
+   317600,
+   192
+  ],
+  [
+   318400,
+   192
+  ],
+  [
+   384000,
+   144
+  ],
+  [
+   384000,
+   96
+  ],
+  [
+   384000,
+   96
+  ],
+  [
+   384000,
+   96
+  ],
+  [
+   384000,
+   48
+  ],
+  [
+   384000,
+   192
+  ],
+  [
+   384800,
+   192
+  ],
+  [
+   385600,
+   192
+  ],
+  [
+   386400,
+   192
+  ],
+  [
+   387200,
+   192
+  ],
+  [
+   388000,
+   192
+  ],
+  [
+   388800,
+   48
+  ],
+  [
+   388800,
+   192
+  ],
+  [
+   389600,
+   192
+  ],
+  [
+   390400,
+   192
+  ],
+  [
+   391200,
+   192
+  ],
+  [
+   392000,
+   192
+  ],
+  [
+   392800,
+   192
+  ],
+  [
+   393600,
+   48
+  ],
+  [
+   393600,
+   192
+  ],
+  [
+   394400,
+   192
+  ],
+  [
+   395200,
+   192
+  ],
+  [
+   398400,
+   48
+  ],
+  [
+   403200,
+   144
+  ],
+  [
+   403200,
+   1440
+  ],
+  [
+   403200,
+   96
+  ],
+  [
+   403200,
+   48
+  ],
+  [
+   408000,
+   48
+  ],
+  [
+   412800,
+   48
+  ],
+  [
+   417600,
+   48
+  ],
+  [
+   422400,
+   144
+  ],
+  [
+   422400,
+   96
+  ],
+  [
+   422400,
+   48
+  ],
+  [
+   427200,
+   48
+  ],
+  [
+   432000,
+   48
+  ],
+  [
+   436800,
+   48
+  ],
+  [
+   441600,
+   144
+  ],
+  [
+   441600,
+   1440
+  ],
+  [
+   441600,
+   96
+  ],
+  [
+   441600,
+   48
+  ],
+  [
+   441600,
+   1440
+  ],
+  [
+   446400,
+   48
+  ],
+  [
+   446400,
+   1440
+  ],
+  [
+   451200,
+   48
+  ],
+  [
+   451200,
+   1440
+  ],
+  [
+   453600,
+   1440
+  ],
+  [
+   456000,
+   48
+  ],
+  [
+   456000,
+   1440
+  ],
+  [
+   458400,
+   1440
+  ],
+  [
+   460800,
+   144
+  ],
+  [
+   460800,
+   96
+  ],
+  [
+   460800,
+   96
+  ],
+  [
+   460800,
+   192
+  ],
+  [
+   461600,
+   192
+  ],
+  [
+   462400,
+   192
+  ],
+  [
+   463200,
+   192
+  ],
+  [
+   464000,
+   192
+  ],
+  [
+   464800,
+   192
+  ],
+  [
+   465600,
+   192
+  ],
+  [
+   466400,
+   192
+  ],
+  [
+   467200,
+   192
+  ],
+  [
+   468000,
+   192
+  ],
+  [
+   468800,
+   192
+  ],
+  [
+   469600,
+   192
+  ],
+  [
+   470400,
+   192
+  ],
+  [
+   471200,
+   192
+  ],
+  [
+   480000,
+   144
+  ],
+  [
+   480000,
+   1440
+  ],
+  [
+   499200,
+   144
+  ],
+  [
+   499200,
+   96
+  ],
+  [
+   518400,
+   144
+  ],
+  [
+   518400,
+   1440
+  ],
+  [
+   537600,
+   192
+  ],
+  [
+   538400,
+   192
+  ],
+  [
+   539200,
+   192
+  ],
+  [
+   540000,
+   192
+  ],
+  [
+   540800,
+   192
+  ],
+  [
+   541600,
+   192
+  ],
+  [
+   542400,
+   192
+  ],
+  [
+   543200,
+   192
+  ],
+  [
+   544000,
+   192
+  ],
+  [
+   544800,
+   192
+  ],
+  [
+   545600,
+   192
+  ],
+  [
+   546400,
+   192
+  ],
+  [
+   547200,
+   192
+  ],
+  [
+   548000,
+   192
+  ],
+  [
+   548800,
+   192
+  ],
+  [
+   549600,
+   192
+  ],
+  [
+   550400,
+   192
+  ],
+  [
+   551200,
+   192
+  ],
+  [
+   576000,
+   144
+  ],
+  [
+   580800,
+   144
+  ],
+  [
+   585600,
+   144
+  ],
+  [
+   590400,
+   144
+  ],
+  [
+   595200,
+   144
+  ],
+  [
+   600000,
+   144
+  ],
+  [
+   614400,
+   144
+  ],
+  [
+   614400,
+   96
+  ],
+  [
+   614400,
+   96
+  ],
+  [
+   614400,
+   288
+  ],
+  [
+   615200,
+   288
+  ],
+  [
+   616000,
+   288
+  ],
+  [
+   616800,
+   288
+  ],
+  [
+   633600,
+   144
+  ],
+  [
+   636000,
+   144
+  ],
+  [
+   638400,
+   144
+  ],
+  [
+   640000,
+   192
+  ],
+  [
+   640800,
+   144
+  ],
+  [
+   640800,
+   192
+  ],
+  [
+   641600,
+   192
+  ],
+  [
+   642400,
+   192
+  ],
+  [
+   643200,
+   192
+  ],
+  [
+   644000,
+   192
+  ],
+  [
+   644800,
+   192
+  ],
+  [
+   645600,
+   192
+  ],
+  [
+   646400,
+   192
+  ],
+  [
+   647200,
+   192
+  ],
+  [
+   648000,
+   192
+  ],
+  [
+   648800,
+   192
+  ]
+ ]
+}

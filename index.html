@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Showreel 2026</title>
+<style>
+  :root { --bg: #050507; --fg: #f2efe9; --dim: #8a8791; --accent: #ff4d1f; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; background: var(--bg); color: var(--fg); overflow: hidden; }
+  body { font: 12px/1.4 "JetBrains Mono", ui-monospace, monospace; display: grid; place-items: center; }
+  #stage { position: relative; width: min(100vw, 177.78vh); aspect-ratio: 16 / 9; background: #000; }
+  canvas { width: 100%; height: 100%; display: block; }
+  #ui { position: absolute; inset: auto 0 0 0; padding: 14px 16px; display: flex; gap: 14px; align-items: center;
+        background: linear-gradient(transparent, rgba(0,0,0,.7)); opacity: 0; transition: opacity .25s; }
+  #stage:hover #ui, #ui.show { opacity: 1; }
+  #bar { flex: 1; height: 3px; background: rgba(255,255,255,.18); position: relative; cursor: pointer; }
+  #bar i { position: absolute; inset: 0 auto 0 0; background: var(--accent); width: 0; }
+  #bar:hover { height: 6px; }
+  button { background: none; color: var(--fg); border: 1px solid rgba(255,255,255,.3); padding: 4px 10px; font: inherit; cursor: pointer; }
+  button:hover { border-color: var(--fg); }
+  #tc { color: var(--dim); min-width: 190px; text-align: right; }
+  #gate { position: absolute; inset: 0; display: grid; place-items: center; background: #050507; cursor: pointer; }
+  #gate span { letter-spacing: .3em; text-transform: uppercase; color: var(--dim); }
+  #gate span b { color: var(--fg); font-weight: 500; }
+  body.capture #ui, body.capture #gate { display: none; }
+  body.capture { display: block; }
+  body.capture #stage { width: auto; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c"></canvas>
+  <div id="gate"><span id="gatemsg">Loading…</span></div>
+  <div id="ui">
+    <button id="play">Play</button>
+    <div id="bar"><i></i></div>
+    <span id="tc">00:00:00 · —</span>
+  </div>
+</div>
+<script type="module">
+import { Engine } from './src/engine.js';
+import { TIMELINE } from './src/timeline.js';
+import { CONFIG } from './src/config.js';
+import { loadFonts } from './src/text.js';
+import { hudState, hudRects } from './src/hud.js';
+
+const q = new URLSearchParams(location.search);
+const capture = q.has('capture');
+if (capture) document.body.classList.add('capture');
+const scale = parseFloat(q.get('scale') || (capture ? '1' : '1'));
+const flag = k => q.has(k) && q.get(k) !== '0' && q.get(k) !== 'false';
+// ?clean=1: acceptance renders (grain, dither, vignette, paper fibre = 0)
+const clean = flag('clean');
+// ?test=<name>: replace the timeline by src/shots/_test<Name>.js spanning every frame
+const testName = q.get('test');
+// HUD: on for the reel, off for test pages; ?hud=0 / ?hud=1 overrides
+const hud = q.has('hud') ? flag('hud') : !testName;
+const gateMsg = document.getElementById('gatemsg');
+
+const reel = window.__reel = { ready: null, error: null };
+reel.ready = (async () => {
+  const t0 = performance.now();
+  let timeline = TIMELINE;
+  if (testName) {
+    const mod = await import(`./src/shots/_test${testName[0].toUpperCase()}${testName.slice(1)}.js`);
+    // a test module may export its own `timeline` (e.g. to exercise overlaps); default: one shot, all frames
+    timeline = mod.timeline ?? [{ id: `test-${testName}`, start: 0, end: CONFIG.frames, overlap: 0, module: mod.default }];
+  }
+  const fonts = await loadFonts('');
+  const t1 = performance.now();
+  const engine = new Engine(document.getElementById('c'), {
+    width: CONFIG.width, height: CONFIG.height, fps: CONFIG.fps, frames: CONFIG.frames, timeline, scale,
+    clean, hud, query: Object.fromEntries(q.entries()),
+  });
+  await engine.init((i, n, id) => { gateMsg.textContent = `Preparing ${i}/${n} · ${id}`; });
+  reel.engine = engine;
+  reel.timings = { fontsMs: t1 - t0, fontFaces: fonts.faces, initMs: performance.now() - t1 };
+  reel.frames = CONFIG.frames; reel.fps = CONFIG.fps; reel.width = engine.W; reel.height = engine.H;
+  reel.clean = clean; reel.test = testName; reel.hud = hud;
+  reel.shots = timeline.map(s => ({ id: s.id, start: s.start, end: s.end, overlap: s.overlap ?? 0 }));
+  reel.hudState = n => hudState(n, CONFIG, engine.hudStarts);
+  reel.hudRects = () => hudRects(engine.W, engine.H, engine.scale);
+  reel.renderFrame = n => { const r = engine.renderFrame(n); engine.gl.finish(); return { frame: r, shot: engine.currentShot }; };
+  // PNG data URL of frame n (used by tools/render.mjs)
+  reel.capture = (n, type = 'image/png', quality) => { engine.renderFrame(n); engine.gl.finish(); return engine.canvas.toDataURL(type, quality); };
+  // Post params actually used for the last rendered frame (after clean overrides)
+  reel.lastPost = () => engine.lastPost;
+  // Render frame n and read back its linear HDR image (pre-post; the MB average when
+  // motion blur is on) as RGBA floats. x, y in GL pixels (origin bottom-left).
+  reel.readHDR = (n, x = 0, y = 0, w = 1, h = 1) => {
+    engine.renderFrame(n);
+    const gl = engine.gl, buf = new Float32Array(w * h * 4);
+    engine.lastHDR.bind();
+    gl.readPixels(x, y, w, h, gl.RGBA, gl.FLOAT, buf);
+    return Array.from(buf);
+  };
+  return true;
+})().catch(e => { reel.error = String(e && e.stack || e); gateMsg.textContent = 'Error: ' + e.message; console.error(e); throw e; });
+
+if (!capture) {
+  const gate = document.getElementById('gate'), playBtn = document.getElementById('play');
+  const barI = document.querySelector('#bar i'), tc = document.getElementById('tc');
+  const audio = new Audio('audio/soundtrack.wav');
+  audio.preload = 'auto';
+  let hasAudio = true; audio.addEventListener('error', () => { hasAudio = false; });
+  let playing = false, t0 = 0, startAt = 0, frame = parseInt(q.get('frame') || '0', 10);
+  const loop = q.has('loop') || true;
+  const shotFilter = q.get('shot');
+
+  const fmt = n => { const s = Math.floor(n / 60), f = n % 60; return `00:${String(s).padStart(2, '0')}:${String(f).padStart(2, '0')}`; };
+  const now = () => hasAudio && playing ? audio.currentTime : (performance.now() - t0) / 1000 + startAt;
+
+  function draw(n) {
+    const { engine } = reel;
+    engine.renderFrame(n);
+    barI.style.width = (100 * n / (reel.frames - 1)) + '%';
+    tc.textContent = `${fmt(n)} · ${engine.currentShot}`;
+  }
+  function tick() {
+    if (!playing) return;
+    let n = Math.floor(now() * reel.fps);
+    let range = [0, reel.frames];
+    if (shotFilter) { const s = reel.shots.find(s => s.id === shotFilter); if (s) range = [s.start, s.end]; }
+    if (n >= range[1]) {
+      if (loop) { seek(range[0]); n = range[0]; } else { pause(); n = range[1] - 1; }
+    }
+    frame = n; draw(n);
+    requestAnimationFrame(tick);
+  }
+  function play() {
+    playing = true; playBtn.textContent = 'Pause';
+    startAt = frame / reel.fps; t0 = performance.now();
+    if (hasAudio) { audio.currentTime = startAt; audio.play().catch(() => { hasAudio = false; }); }
+    requestAnimationFrame(tick);
+  }
+  function pause() { playing = false; playBtn.textContent = 'Play'; audio.pause(); }
+  function seek(n) {
+    frame = Math.max(0, Math.min(reel.frames - 1, n));
+    startAt = frame / reel.fps; t0 = performance.now();
+    if (hasAudio) audio.currentTime = startAt;
+    if (!playing) draw(frame);
+  }
+  reel.ready.then(() => {
+    if (shotFilter) { const s = reel.shots.find(s => s.id === shotFilter); if (s && !q.has('frame')) frame = s.start; }
+    draw(frame);
+    gateMsg.innerHTML = '<b>▶</b>&nbsp;&nbsp;Play reel · sound on';
+    gate.addEventListener('click', () => { gate.remove(); play(); }, { once: true });
+  });
+  playBtn.onclick = () => playing ? pause() : play();
+  document.getElementById('bar').onclick = e => { const r = e.currentTarget.getBoundingClientRect(); seek(Math.round((e.clientX - r.left) / r.width * (reel.frames - 1))); };
+  addEventListener('keydown', e => {
+    if (!reel.engine) return;
+    if (e.code === 'Space') { e.preventDefault(); document.getElementById('gate')?.remove(); playing ? pause() : play(); }
+    if (e.code === 'ArrowRight') { pause(); seek(frame + (e.shiftKey ? 10 : 1)); }
+    if (e.code === 'ArrowLeft') { pause(); seek(frame - (e.shiftKey ? 10 : 1)); }
+    if (e.code === 'KeyF') document.getElementById('stage').requestFullscreen?.();
+    document.getElementById('ui').classList.add('show');
+  });
+}
+</script>
+</body>
+</html>

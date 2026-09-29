@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>_sys check</title>
+<style>html,body{margin:0;background:#111;color:#ddd;font:12px monospace}</style>
+</head>
+<body>
+<script type="module">
+// Test page for src/shots/_sys.js (package 9). Driven by tools/syscheck.mjs.
+// Loads the fonts, creates a WebGL2 context and a minimal engine-like ctx,
+// then exposes window.__sys = { ready, ctx, run(name) }.
+import { loadFonts } from '../src/text.js';
+import * as Text from '../src/text.js';
+import GLSL from '../src/glsl.js';
+import * as E from '../src/ease.js';
+import { CONFIG } from '../src/config.js';
+import { Program, FBO, FS_VERT, fullscreenVAO } from '../src/gl.js';
+
+const q = new URLSearchParams(location.search);
+const W = +(q.get('w') || 1920), H = +(q.get('h') || 1080);
+const S = window.__sys = { ready: null, error: null };
+S.ready = (async () => {
+  await loadFonts('../');
+  const canvas = document.createElement('canvas');
+  canvas.width = W; canvas.height = H;
+  document.body.appendChild(canvas);
+  const gl = canvas.getContext('webgl2', { antialias: false, alpha: false, preserveDrawingBuffer: true });
+  if (!gl) throw new Error('no webgl2');
+  gl.getExtension('EXT_color_buffer_float');
+  gl.getExtension('OES_texture_float_linear');
+  const vao = fullscreenVAO(gl);
+  const config = { ...CONFIG };
+  for (const k of ['name', 'role', 'year']) if (q.has(k)) config[k] = q.get(k);
+  const ctx = {
+    gl, W, H, aspect: W / H, scale: H / 1080, text: Text, glsl: GLSL, ease: E, config,
+    clean: q.has('clean'),
+    program: (frag, label = 'sys') => new Program(gl, FS_VERT, frag, label),
+    fbo: (w, h, o) => new FBO(gl, w ?? W, h ?? H, o),
+    draw(prog, uniforms = {}, target = null) {
+      if (target) target.bind(); else { gl.bindFramebuffer(gl.FRAMEBUFFER, null); gl.viewport(0, 0, W, H); }
+      const w = target ? target.w : W, h = target ? target.h : H;
+      prog.use().set({ uRes: [w, h], uAspect: w / h, ...uniforms });
+      gl.disable(gl.BLEND);
+      gl.bindVertexArray(vao);
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+    },
+  };
+  S.ctx = ctx; S.canvas = canvas;
+  S.run = async (name, arg) => {
+    S.sys ??= await import('../src/shots/_sys.js');
+    const checks = await import('./syscheck.js');
+    return checks[name](ctx, S.sys, arg);
+  };
+  return true;
+})().catch(e => { S.error = String(e && e.stack || e); throw e; });
+</script>
+</body>
+</html>
